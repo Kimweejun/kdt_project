@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b746063b49563a846be6d9fbfa7505e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b746063b49563a846be6d9fbfa7505e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b746063b49563a846be6d9fbfa7505e = L.map(
+                "map_9b746063b49563a846be6d9fbfa7505e",
+                {
+                    center: [35.0741413535162, 129.051413924703],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2b40f071abac41e8859f6621a20233cc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2b40f071abac41e8859f6621a20233cc.addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var circle_bed736a4b4f0c6f2d887d187ac2b0872 = L.circle(
+                [35.0741413535162, 129.051413924703],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.05, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var circle_marker_9ed5fa63b3b6fc59647d27581ce59fba = L.circleMarker(
+                [35.0741413535162, 129.051413924703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var marker_cd26f8b53560423dfc6d838095057829 = L.marker(
+                [35.0741413535162, 129.051413924703],
+                {
+  "zIndex": 1001,
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_c393a96f0d469bac3f1e75cda9239f10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cd26f8b53560423dfc6d838095057829.bindTooltip(
+                `<div>
+                     <div style='width:250px;'><b>[분석 대상지]</b><br>부산광역시 영도구 영선동4가 1275-5<hr>🚨 종합병원: <b>신한클리닉센터</b> (2.1km)<br>🏥 대학병원: <b>고신대학교복음병원</b> (3.3km)</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd26f8b53560423dfc6d838095057829.setIcon(icon_c393a96f0d469bac3f1e75cda9239f10);
+            
+    
+            var marker_4a496d8a38841277e0eaeb01a26cf8bc = L.marker(
+                [35.07300225, 129.0539466],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_08acb6bad9be14c3ed106646e67e31af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4a496d8a38841277e0eaeb01a26cf8bc.bindTooltip(
+                `<div>
+                     🚌 시내버스: 함지골수련원
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4a496d8a38841277e0eaeb01a26cf8bc.setIcon(icon_08acb6bad9be14c3ed106646e67e31af);
+            
+    
+            var marker_cadbfe407a3a84b8337a12472f42d7f1 = L.marker(
+                [35.07613226, 129.0483138],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_dede1ded4a5531df6db87717457ab9c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cadbfe407a3a84b8337a12472f42d7f1.bindTooltip(
+                `<div>
+                     🚌 시내버스: 백련사
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cadbfe407a3a84b8337a12472f42d7f1.setIcon(icon_dede1ded4a5531df6db87717457ab9c1);
+            
+    
+            var marker_50c544b771fe6da9dd5ce419e94fa1c9 = L.marker(
+                [35.07612861, 129.0480279],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_f1dd2f85c95c22c9ce44592a1f03fa43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_50c544b771fe6da9dd5ce419e94fa1c9.bindTooltip(
+                `<div>
+                     🚌 시내버스: 백련사
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_50c544b771fe6da9dd5ce419e94fa1c9.setIcon(icon_f1dd2f85c95c22c9ce44592a1f03fa43);
+            
+    
+            var marker_507afbf8f4b27d45bff24b7cfd55e736 = L.marker(
+                [35.07284063, 129.0535007],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_4be5df94e98f28edef06156c57271d59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_507afbf8f4b27d45bff24b7cfd55e736.bindTooltip(
+                `<div>
+                     🚌 시내버스: 함지골수련원
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_507afbf8f4b27d45bff24b7cfd55e736.setIcon(icon_4be5df94e98f28edef06156c57271d59);
+            
+    
+            var marker_dd8e063ddaf7a0abeaccc97a03a8c9fe = L.marker(
+                [35.07211288, 129.0547509],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_fa32c26a6b90eccec23d568312b427d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dd8e063ddaf7a0abeaccc97a03a8c9fe.bindTooltip(
+                `<div>
+                     🚌 시내버스: 하늘전망대
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dd8e063ddaf7a0abeaccc97a03a8c9fe.setIcon(icon_fa32c26a6b90eccec23d568312b427d3);
+            
+    
+            var marker_18e2775022e3c7869bf05fac9cab5949 = L.marker(
+                [35.075905, 129.048491],
+                {
+}
+            ).addTo(map_9b746063b49563a846be6d9fbfa7505e);
+        
+    
+            var icon_1cb8476e69a3c24287b7f782a2441daf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_18e2775022e3c7869bf05fac9cab5949.bindTooltip(
+                `<div>
+                     🚌 시내버스: 하늘전망대
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18e2775022e3c7869bf05fac9cab5949.setIcon(icon_1cb8476e69a3c24287b7f782a2441daf);
+            
+</script>
+</html>

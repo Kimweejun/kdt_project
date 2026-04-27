@@ -1,0 +1,139 @@
+﻿분류명,데이터값,분류값ID(코드),수록주기,단위영문명,항목ID,통계표ID,항목명,통계표명,수록시점,최종수정일,분류값영문,분류값명,단위명,항목영문명,기관코드,분류영문명
+시설별,89698,A,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-10-18,Total,총계,개소,Number of Facilities,117,By Facility
+시설별,93056,A,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Total,총계,개소,Number of Facilities,117,By Facility
+시설별,96430,A,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Total,총계,개소,Number of Facilities,117,By Facility
+시설별,358447,A,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Total,총계,명,Fixed Number of Entry,117,By Facility
+시설별,387391,A,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Total,총계,명,Fixed Number of Entry,117,By Facility
+시설별,412917,A,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Total,총계,명,Fixed Number of Entry,117,By Facility
+시설별,308,B,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Residential Welfare Facility For The Aged,노인주거복지시설,개소,Number of Facilities,117,By Facility
+시설별,297,B,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Residential Welfare Facility For The Aged,노인주거복지시설,개소,Number of Facilities,117,By Facility
+시설별,281,B,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Residential Welfare Facility For The Aged,노인주거복지시설,개소,Number of Facilities,117,By Facility
+시설별,19355,B,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Residential Welfare Facility For The Aged,노인주거복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,19369,B,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Residential Welfare Facility For The Aged,노인주거복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,19412,B,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Residential Welfare Facility For The Aged,노인주거복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,180,B_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Home For The Aged,양로시설,개소,Number of Facilities,117,By Facility
+시설별,175,B_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Home For The Aged,양로시설,개소,Number of Facilities,117,By Facility
+시설별,166,B_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Home For The Aged,양로시설,개소,Number of Facilities,117,By Facility
+시설별,9752,B_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Home For The Aged,양로시설,명,Fixed Number of Entry,117,By Facility
+시설별,9653,B_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Home For The Aged,양로시설,명,Fixed Number of Entry,117,By Facility
+시설별,9567,B_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Home For The Aged,양로시설,명,Fixed Number of Entry,117,By Facility
+시설별,89,B_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Cohabitation Home For The Aged,노인공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,82,B_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Cohabitation Home For The Aged,노인공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,72,B_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Cohabitation Home For The Aged,노인공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,763,B_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Cohabitation Home For The Aged,노인공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,710,B_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Cohabitation Home For The Aged,노인공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,614,B_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Cohabitation Home For The Aged,노인공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,39,B_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Welfare House For The Aged,노인복지주택,개소,Number of Facilities,117,By Facility
+시설별,40,B_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Welfare House For The Aged,노인복지주택,개소,Number of Facilities,117,By Facility
+시설별,43,B_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Welfare House For The Aged,노인복지주택,개소,Number of Facilities,117,By Facility
+시설별,8840,B_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Welfare House For The Aged,노인복지주택,명,Fixed Number of Entry,117,By Facility
+시설별,9006,B_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Welfare House For The Aged,노인복지주택,명,Fixed Number of Entry,117,By Facility
+시설별,9231,B_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Welfare House For The Aged,노인복지주택,명,Fixed Number of Entry,117,By Facility
+시설별,6069,C,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Medical and Welfare Facility For The Aged,노인의료복지시설,개소,Number of Facilities,117,By Facility
+시설별,6139,C,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Medical and Welfare Facility For The Aged,노인의료복지시설,개소,Number of Facilities,117,By Facility
+시설별,6195,C,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Medical and Welfare Facility For The Aged,노인의료복지시설,개소,Number of Facilities,117,By Facility
+시설별,232235,C,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Medical and Welfare Facility For The Aged,노인의료복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,242974,C,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Medical and Welfare Facility For The Aged,노인의료복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,250898,C,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Medical and Welfare Facility For The Aged,노인의료복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,4346,C_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Nursing Facility For The Aged,노인요양시설,개소,Number of Facilities,117,By Facility
+시설별,4525,C_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Nursing Facility For The Aged,노인요양시설,개소,Number of Facilities,117,By Facility
+시설별,4640,C_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Nursing Facility For The Aged,노인요양시설,개소,Number of Facilities,117,By Facility
+시설별,216784,C_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Nursing Facility For The Aged,노인요양시설,명,Fixed Number of Entry,117,By Facility
+시설별,228495,C_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Nursing Facility For The Aged,노인요양시설,명,Fixed Number of Entry,117,By Facility
+시설별,236365,C_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Nursing Facility For The Aged,노인요양시설,명,Fixed Number of Entry,117,By Facility
+시설별,1723,C_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,1614,C_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,1555,C_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,개소,Number of Facilities,117,By Facility
+시설별,15451,C_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,14479,C_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,14533,C_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Nursing and Cohabitation Home For The Aged,노인요양공동생활가정,명,Fixed Number of Entry,117,By Facility
+시설별,69786,D,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Leisure Welfare Facility For The Aged,노인여가복지시설,개소,Number of Facilities,117,By Facility
+시설별,70455,D,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Leisure Welfare Facility For The Aged,노인여가복지시설,개소,Number of Facilities,117,By Facility
+시설별,70935,D,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Leisure Welfare Facility For The Aged,노인여가복지시설,개소,Number of Facilities,117,By Facility
+시설별,0,D,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Leisure Welfare Facility For The Aged,노인여가복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,0,D,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Leisure Welfare Facility For The Aged,노인여가복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,0,D,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Leisure Welfare Facility For The Aged,노인여가복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,366,D_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Welfare Center For The Aged,노인복지관,개소,Number of Facilities,117,By Facility
+시설별,438,D_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Welfare Center For The Aged,노인복지관,개소,Number of Facilities,117,By Facility
+시설별,454,D_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Welfare Center For The Aged,노인복지관,개소,Number of Facilities,117,By Facility
+시설별,0,D_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Welfare Center For The Aged,노인복지관,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Welfare Center For The Aged,노인복지관,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Welfare Center For The Aged,노인복지관,명,Fixed Number of Entry,117,By Facility
+시설별,68180,D_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Silver Hall,경로당,개소,Number of Facilities,117,By Facility
+시설별,68792,D_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Silver Hall,경로당,개소,Number of Facilities,117,By Facility
+시설별,69260,D_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Silver Hall,경로당,개소,Number of Facilities,117,By Facility
+시설별,0,D_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Silver Hall,경로당,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Silver Hall,경로당,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Silver Hall,경로당,명,Fixed Number of Entry,117,By Facility
+시설별,1240,D_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Class For The Aged,노인교실,개소,Number of Facilities,117,By Facility
+시설별,1225,D_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Class For The Aged,노인교실,개소,Number of Facilities,117,By Facility
+시설별,1221,D_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Class For The Aged,노인교실,개소,Number of Facilities,117,By Facility
+시설별,0,D_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Class For The Aged,노인교실,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Class For The Aged,노인교실,명,Fixed Number of Entry,117,By Facility
+시설별,0,D_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Class For The Aged,노인교실,명,Fixed Number of Entry,117,By Facility
+시설별,13272,E,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-07-12,Home Care Facility For The Aged,재가노인복지시설,개소,Number of Facilities,117,By Facility
+시설별,15896,E,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Home Care Facility For The Aged,재가노인복지시설,개소,Number of Facilities,117,By Facility
+시설별,18745,E,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Home Care Facility For The Aged,재가노인복지시설,개소,Number of Facilities,117,By Facility
+시설별,106857,E,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Home Care Facility For The Aged,재가노인복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,125048,E,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Home Care Facility For The Aged,재가노인복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,142607,E,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Home Care Facility For The Aged,재가노인복지시설,명,Fixed Number of Entry,117,By Facility
+시설별,5808,E_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Visiting Nursing Service,방문요양서비스,개소,Number of Facilities,117,By Facility
+시설별,7192,E_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Visiting Nursing Service,방문요양서비스,개소,Number of Facilities,117,By Facility
+시설별,8668,E_01,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Visiting Nursing Service,방문요양서비스,개소,Number of Facilities,117,By Facility
+시설별,0,E_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Visiting Nursing Service,방문요양서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Visiting Nursing Service,방문요양서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_01,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Visiting Nursing Service,방문요양서비스,명,Fixed Number of Entry,117,By Facility
+시설별,3035,E_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Day and Night Protection Service,주야간보호서비스,개소,Number of Facilities,117,By Facility
+시설별,3397,E_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Day and Night Protection Service,주야간보호서비스,개소,Number of Facilities,117,By Facility
+시설별,3790,E_02,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Day and Night Protection Service,주야간보호서비스,개소,Number of Facilities,117,By Facility
+시설별,106394,E_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-06-30,Day and Night Protection Service,주야간보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,124402,E_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Day and Night Protection Service,주야간보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,142352,E_02,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Day and Night Protection Service,주야간보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,70,E_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Short-Term Protection Service,단기보호서비스,개소,Number of Facilities,117,By Facility
+시설별,60,E_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Short-Term Protection Service,단기보호서비스,개소,Number of Facilities,117,By Facility
+시설별,60,E_03,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Short-Term Protection Service,단기보호서비스,개소,Number of Facilities,117,By Facility
+시설별,463,E_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Short-Term Protection Service,단기보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,646,E_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Short-Term Protection Service,단기보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,255,E_03,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Short-Term Protection Service,단기보호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,3394,E_04,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Visiting Bathing Service,방문목욕서비스,개소,Number of Facilities,117,By Facility
+시설별,4070,E_04,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Visiting Bathing Service,방문목욕서비스,개소,Number of Facilities,117,By Facility
+시설별,4794,E_04,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Visiting Bathing Service,방문목욕서비스,개소,Number of Facilities,117,By Facility
+시설별,0,E_04,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Visiting Bathing Service,방문목욕서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_04,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Visiting Bathing Service,방문목욕서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_04,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Visiting Bathing Service,방문목욕서비스,명,Fixed Number of Entry,117,By Facility
+시설별,363,E_05,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-07-12,Home Care Support Service,재가노인지원서비스,개소,Number of Facilities,117,By Facility
+시설별,342,E_05,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Home Care Support Service,재가노인지원서비스,개소,Number of Facilities,117,By Facility
+시설별,339,E_05,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Home Care Support Service,재가노인지원서비스,개소,Number of Facilities,117,By Facility
+시설별,0,E_05,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Home Care Support Service,재가노인지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_05,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Home Care Support Service,재가노인지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_05,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Home Care Support Service,재가노인지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,234,E_06,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Visiting Nursing Service,방문간호서비스,개소,Number of Facilities,117,By Facility
+시설별,295,E_06,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Visiting Nursing Service,방문간호서비스,개소,Number of Facilities,117,By Facility
+시설별,376,E_06,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Visiting Nursing Service,방문간호서비스,개소,Number of Facilities,117,By Facility
+시설별,0,E_06,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Visiting Nursing Service,방문간호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_06,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Visiting Nursing Service,방문간호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_06,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Visiting Nursing Service,방문간호서비스,명,Fixed Number of Entry,117,By Facility
+시설별,368,E_07,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Welfare Equipment Support Service,복지용구지원서비스,개소,Number of Facilities,117,By Facility
+시설별,540,E_07,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Welfare Equipment Support Service,복지용구지원서비스,개소,Number of Facilities,117,By Facility
+시설별,718,E_07,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Welfare Equipment Support Service,복지용구지원서비스,개소,Number of Facilities,117,By Facility
+시설별,0,E_07,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Welfare Equipment Support Service,복지용구지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_07,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Welfare Equipment Support Service,복지용구지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,0,E_07,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Welfare Equipment Support Service,복지용구지원서비스,명,Fixed Number of Entry,117,By Facility
+시설별,37,F,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Protection Institution For The Aged,노인보호전문기관,개소,Number of Facilities,117,By Facility
+시설별,38,F,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Protection Institution For The Aged,노인보호전문기관,개소,Number of Facilities,117,By Facility
+시설별,39,F,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Protection Institution For The Aged,노인보호전문기관,개소,Number of Facilities,117,By Facility
+시설별,0,F,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Protection Institution For The Aged,노인보호전문기관,명,Fixed Number of Entry,117,By Facility
+시설별,0,F,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Protection Institution For The Aged,노인보호전문기관,명,Fixed Number of Entry,117,By Facility
+시설별,0,F,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Protection Institution For The Aged,노인보호전문기관,명,Fixed Number of Entry,117,By Facility
+시설별,206,G,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Job Support Institution For The Aged,노인일자리지원기관,개소,Number of Facilities,117,By Facility
+시설별,211,G,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Job Support Institution For The Aged,노인일자리지원기관,개소,Number of Facilities,117,By Facility
+시설별,215,G,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Job Support Institution For The Aged,노인일자리지원기관,개소,Number of Facilities,117,By Facility
+시설별,0,G,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Job Support Institution For The Aged,노인일자리지원기관,명,Fixed Number of Entry,117,By Facility
+시설별,0,G,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Job Support Institution For The Aged,노인일자리지원기관,명,Fixed Number of Entry,117,By Facility
+시설별,0,G,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Job Support Institution For The Aged,노인일자리지원기관,명,Fixed Number of Entry,117,By Facility
+시설별,20,H,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2022,2023-06-30,Shelter for The Abused Aged,학대피해노인 전용쉼터,개소,Number of Facilities,117,By Facility
+시설별,20,H,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2023,2024-06-28,Shelter for The Abused Aged,학대피해노인 전용쉼터,개소,Number of Facilities,117,By Facility
+시설별,20,H,A,Place,217001,DT_117N_B00003,시설수,노인복지시설 현황,2024,2025-06-26,Shelter for The Abused Aged,학대피해노인 전용쉼터,개소,Number of Facilities,117,By Facility
+시설별,0,H,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2022,2023-07-12,Shelter for The Abused Aged,학대피해노인 전용쉼터,명,Fixed Number of Entry,117,By Facility
+시설별,0,H,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2023,2024-06-28,Shelter for The Abused Aged,학대피해노인 전용쉼터,명,Fixed Number of Entry,117,By Facility
+시설별,0,H,A,Person,217002,DT_117N_B00003,입소정원,노인복지시설 현황,2024,2025-06-26,Shelter for The Abused Aged,학대피해노인 전용쉼터,명,Fixed Number of Entry,117,By Facility

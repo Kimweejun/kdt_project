@@ -1,0 +1,18 @@
+<rss>
+	<channel>
+		<my>
+			<song album="a1">
+				<title>song1</title>
+				<length>3:50</length>
+			</song>
+			<song album="a2">
+				<title>song2</title>
+				<length>4:50</length>
+			</song>
+			<song album="a3">
+				<title>song3</title>
+				<length>2:40</length>
+			</song>
+		</my>	
+	</channel>	
+</rss>

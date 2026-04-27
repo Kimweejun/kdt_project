@@ -1,0 +1,2666 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7acf3debbfbbf6146007b6c0d0d1e87e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7acf3debbfbbf6146007b6c0d0d1e87e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7acf3debbfbbf6146007b6c0d0d1e87e = L.map(
+                "map_7acf3debbfbbf6146007b6c0d0d1e87e",
+                {
+                    center: [35.1138091889753, 129.019604494666],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca8c29258030dd3d6dd973dd3c61df86 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ca8c29258030dd3d6dd973dd3c61df86.addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var circle_34dfdd7d80c01e853ff7b7b6629d634e = L.circle(
+                [35.1138091889753, 129.019604494666],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3498db", "fillOpacity": 0.05, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 2}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var circle_marker_bfbb1fd61dd4363e3c1351ea8976d1f9 = L.circleMarker(
+                [35.1138091889753, 129.019604494666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var marker_8bfcb198edc28c60f518298d42781e11 = L.marker(
+                [35.1138091889753, 129.019604494666],
+                {
+  "zIndex": 1001,
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_19910b23ddde171c1ef1c2d9363ea653 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8bfcb198edc28c60f518298d42781e11.bindTooltip(
+                `<div>
+                     
+    <div style='width:300px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+        <b>[분석 대상지]</b><br>
+        부산광역시 서구 구덕로 322번길 63<hr style='margin: 5px 0;'>
+        🚨 종합병원: <b>동아대학교병원</b> (720m)<br>
+        🏥 대학병원: <b>동아대학교 대신병원</b> (700m)
+    </div>
+    
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bfcb198edc28c60f518298d42781e11.setIcon(icon_19910b23ddde171c1ef1c2d9363ea653);
+            
+    
+            var marker_4841b88754595b184c26ecc601365d8f = L.marker(
+                [35.11017836, 129.0225454],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_80c9419fd8b53ce3caa3759749f3978c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4841b88754595b184c26ecc601365d8f.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 화랑초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4841b88754595b184c26ecc601365d8f.setIcon(icon_80c9419fd8b53ce3caa3759749f3978c);
+            
+    
+            var marker_22de62f1cae11f6447c82c2583a1fd19 = L.marker(
+                [35.1152262, 129.0239438],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_92dc2a5fa57c5668066c7c127ac485cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_22de62f1cae11f6447c82c2583a1fd19.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신2동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_22de62f1cae11f6447c82c2583a1fd19.setIcon(icon_92dc2a5fa57c5668066c7c127ac485cf);
+            
+    
+            var marker_1c62378132f3181e76e005164006d0f4 = L.marker(
+                [35.11591801, 129.0223718],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_52ab7c83faece66728fe103280705e0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1c62378132f3181e76e005164006d0f4.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대고개</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1c62378132f3181e76e005164006d0f4.setIcon(icon_52ab7c83faece66728fe103280705e0b);
+            
+    
+            var marker_42f018d1b6e2588014fad6c77447395e = L.marker(
+                [35.10979151, 129.0173967],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ed090b6ae50021b7abb99b2418a5a5d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_42f018d1b6e2588014fad6c77447395e.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 서대시장.동대신역</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_42f018d1b6e2588014fad6c77447395e.setIcon(icon_ed090b6ae50021b7abb99b2418a5a5d2);
+            
+    
+            var marker_9404ea0d722c086534703d178033132e = L.marker(
+                [35.11497148, 129.0188866],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_79865fad3de59cf3f51bd0cc1c3797ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9404ea0d722c086534703d178033132e.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동신초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9404ea0d722c086534703d178033132e.setIcon(icon_79865fad3de59cf3f51bd0cc1c3797ab);
+            
+    
+            var marker_227336460339670b5aa84a1299a466b0 = L.marker(
+                [35.11528762, 129.0183503],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_5bf9052b84e2d9ff34a26502dbb42416 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_227336460339670b5aa84a1299a466b0.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동신초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_227336460339670b5aa84a1299a466b0.setIcon(icon_5bf9052b84e2d9ff34a26502dbb42416);
+            
+    
+            var marker_3539691e3e23126568195209c910dcbf = L.marker(
+                [35.11107765, 129.0171518],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_abde5f2caa8682cd06bbd898df05d04f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3539691e3e23126568195209c910dcbf.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신역</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3539691e3e23126568195209c910dcbf.setIcon(icon_abde5f2caa8682cd06bbd898df05d04f);
+            
+    
+            var marker_4afe8c385914c6b444e84c517148c11e = L.marker(
+                [35.11144226, 129.0169838],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_6fa12576b892c322512fd562f99943b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4afe8c385914c6b444e84c517148c11e.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신역</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4afe8c385914c6b444e84c517148c11e.setIcon(icon_6fa12576b892c322512fd562f99943b1);
+            
+    
+            var marker_2b4b16fd1fd97d59da3f8c908caa2024 = L.marker(
+                [35.11290253, 129.0164914],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_9bdc54103e7298b66ffc39cbe4c20039 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2b4b16fd1fd97d59da3f8c908caa2024.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 서대신우체국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b4b16fd1fd97d59da3f8c908caa2024.setIcon(icon_9bdc54103e7298b66ffc39cbe4c20039);
+            
+    
+            var marker_bf53c434516a7437ff8bca8a4e67cfef = L.marker(
+                [35.11331345, 129.0162525],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_912c5db48bad19a149b202dd4fa186db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bf53c434516a7437ff8bca8a4e67cfef.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 구덕운동장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bf53c434516a7437ff8bca8a4e67cfef.setIcon(icon_912c5db48bad19a149b202dd4fa186db);
+            
+    
+            var marker_4ed7d09735f1a60a69f838abe57dc077 = L.marker(
+                [35.11470736, 129.015516],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_2979022f5d00a523c500868070892b5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4ed7d09735f1a60a69f838abe57dc077.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 구덕운동장(종점)</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ed7d09735f1a60a69f838abe57dc077.setIcon(icon_2979022f5d00a523c500868070892b5d);
+            
+    
+            var marker_67232662a7db160cbb4d3f1d9d0cea7d = L.marker(
+                [35.11364651, 129.0160705],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_fcca60a1a9441ccabf298b4bf564a5ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_67232662a7db160cbb4d3f1d9d0cea7d.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 구덕운동장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67232662a7db160cbb4d3f1d9d0cea7d.setIcon(icon_fcca60a1a9441ccabf298b4bf564a5ba);
+            
+    
+            var marker_01cf5c0ceef35465e90b7ae41c0c8b83 = L.marker(
+                [35.11544584, 129.0166483],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_15ccf4baa08c0bac64ef3d87b2d7ca27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_01cf5c0ceef35465e90b7ae41c0c8b83.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 문화아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_01cf5c0ceef35465e90b7ae41c0c8b83.setIcon(icon_15ccf4baa08c0bac64ef3d87b2d7ca27);
+            
+    
+            var marker_1af791d67c2754a242f199f6d95d627d = L.marker(
+                [35.11538806, 129.0164753],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_a839795f95be1699e83aeac866850063 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1af791d67c2754a242f199f6d95d627d.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 문화아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1af791d67c2754a242f199f6d95d627d.setIcon(icon_a839795f95be1699e83aeac866850063);
+            
+    
+            var marker_8033f4f0a6dfaf293fb50417b828d8dc = L.marker(
+                [35.11065502, 129.0199411],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_e1ccac2bc81a795deae4777cd1ab59e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8033f4f0a6dfaf293fb50417b828d8dc.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대시장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8033f4f0a6dfaf293fb50417b828d8dc.setIcon(icon_e1ccac2bc81a795deae4777cd1ab59e6);
+            
+    
+            var marker_136c07c9e3b57f4da7bef62c006b9090 = L.marker(
+                [35.11073188, 129.0176547],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_7bbd431f3b3dc4d261227b24f3075da9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_136c07c9e3b57f4da7bef62c006b9090.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신역</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_136c07c9e3b57f4da7bef62c006b9090.setIcon(icon_7bbd431f3b3dc4d261227b24f3075da9);
+            
+    
+            var marker_68e3d159444085fb4dda858d91528093 = L.marker(
+                [35.1160927, 129.0229038],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_99be3adc3f8b05cd6b36181a340c4eab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_68e3d159444085fb4dda858d91528093.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 영산3동아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68e3d159444085fb4dda858d91528093.setIcon(icon_99be3adc3f8b05cd6b36181a340c4eab);
+            
+    
+            var marker_cb84c0557f17b2cdd3dabcb0004e0566 = L.marker(
+                [35.11545935, 129.0245504],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_1bf9af88cb8e49db3110689c63b0ba6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb84c0557f17b2cdd3dabcb0004e0566.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 한국빌라</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb84c0557f17b2cdd3dabcb0004e0566.setIcon(icon_1bf9af88cb8e49db3110689c63b0ba6b);
+            
+    
+            var marker_d6c70b3af7dd23c7025f14fd0aa187d4 = L.marker(
+                [35.11491895, 129.0239332],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_0c4f7a37f4907209a47a9247529477ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d6c70b3af7dd23c7025f14fd0aa187d4.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신2동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6c70b3af7dd23c7025f14fd0aa187d4.setIcon(icon_0c4f7a37f4907209a47a9247529477ee);
+            
+    
+            var marker_c73e3d9463d7885b38954dcfd2bd2284 = L.marker(
+                [35.11605684, 129.0217543],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_0310dbde0bbb92243e420c58bd61a49c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c73e3d9463d7885b38954dcfd2bd2284.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대고개</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c73e3d9463d7885b38954dcfd2bd2284.setIcon(icon_0310dbde0bbb92243e420c58bd61a49c);
+            
+    
+            var marker_713fc55ed1e1fd82750d4e1c08f4a15f = L.marker(
+                [35.11732128, 129.0193895],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_cdb05d3e2533e38faf142c053067c7e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_713fc55ed1e1fd82750d4e1c08f4a15f.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 경남고등학교입구</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_713fc55ed1e1fd82750d4e1c08f4a15f.setIcon(icon_cdb05d3e2533e38faf142c053067c7e9);
+            
+    
+            var marker_f522d6da43f3e076b36e7a7ac7d12fef = L.marker(
+                [35.11740747, 129.0185638],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_72c60bf27d3fbf3e7db7110a44cd5063 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f522d6da43f3e076b36e7a7ac7d12fef.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신3동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f522d6da43f3e076b36e7a7ac7d12fef.setIcon(icon_72c60bf27d3fbf3e7db7110a44cd5063);
+            
+    
+            var marker_817628d2066966ef54386167bdc2f966 = L.marker(
+                [35.1176039, 129.0186373],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_133940f2bd6bac3ac36cc5d709d910da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_817628d2066966ef54386167bdc2f966.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신3동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_817628d2066966ef54386167bdc2f966.setIcon(icon_133940f2bd6bac3ac36cc5d709d910da);
+            
+    
+            var marker_3e3ed237acfd110dfc3598a986182820 = L.marker(
+                [35.11507268, 129.0181349],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_b41ddb1e8fc3f960dc033a916961ad46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3e3ed237acfd110dfc3598a986182820.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동신초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e3ed237acfd110dfc3598a986182820.setIcon(icon_b41ddb1e8fc3f960dc033a916961ad46);
+            
+    
+            var marker_c6ef4e889336d7bb6d34ea501caafdfd = L.marker(
+                [35.11448978, 129.0191861],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_51cca859eb7ea10265092c9a63bfb97e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c6ef4e889336d7bb6d34ea501caafdfd.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동신초등학교입구</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c6ef4e889336d7bb6d34ea501caafdfd.setIcon(icon_51cca859eb7ea10265092c9a63bfb97e);
+            
+    
+            var marker_cee109f2d65329475dabd039493d31a0 = L.marker(
+                [35.11399517, 129.0200785],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_8662d2f4422b1e3f07394c76134021dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cee109f2d65329475dabd039493d31a0.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 서여고</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cee109f2d65329475dabd039493d31a0.setIcon(icon_8662d2f4422b1e3f07394c76134021dd);
+            
+    
+            var marker_6e9a0bf3f474447bd8ef2c1ceda11c4e = L.marker(
+                [35.11501672, 129.0182197],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_660e715ddb0d920a9d7e3ee28c146970 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6e9a0bf3f474447bd8ef2c1ceda11c4e.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동신초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e9a0bf3f474447bd8ef2c1ceda11c4e.setIcon(icon_660e715ddb0d920a9d7e3ee28c146970);
+            
+    
+            var marker_10d1ae290e763b0444e027d0e694a125 = L.marker(
+                [35.11408041, 129.0199691],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_cc4cc8e8d38651368d1f5a1427fa4c4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_10d1ae290e763b0444e027d0e694a125.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 서여자고등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_10d1ae290e763b0444e027d0e694a125.setIcon(icon_cc4cc8e8d38651368d1f5a1427fa4c4b);
+            
+    
+            var marker_ba7f60e994c13962ebf1bb357f0ba717 = L.marker(
+                [35.1174473, 129.0167113],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_b95f973ad856678124b4b45717b474de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ba7f60e994c13962ebf1bb357f0ba717.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동아대병원입구</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba7f60e994c13962ebf1bb357f0ba717.setIcon(icon_b95f973ad856678124b4b45717b474de);
+            
+    
+            var marker_fb32d181bcd627291e18c417db390dae = L.marker(
+                [35.11717951, 129.0168595],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_b3a860e38a380f930ebe48c0e330a1e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fb32d181bcd627291e18c417db390dae.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동아탕</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fb32d181bcd627291e18c417db390dae.setIcon(icon_b3a860e38a380f930ebe48c0e330a1e8);
+            
+    
+            var marker_853cb88de06a38cbf9110c7c674465cc = L.marker(
+                [35.11661602, 129.0168184],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_84d6f6da63aa7e5798d67b2a8dd3efae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_853cb88de06a38cbf9110c7c674465cc.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 구덕운동장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_853cb88de06a38cbf9110c7c674465cc.setIcon(icon_84d6f6da63aa7e5798d67b2a8dd3efae);
+            
+    
+            var marker_7b693b84a5f64332f4d0c71b9f59bb0e = L.marker(
+                [35.1167491, 129.0167287],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ea5c617cf70af2f900a30d7071e795d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7b693b84a5f64332f4d0c71b9f59bb0e.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 구덕야구장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7b693b84a5f64332f4d0c71b9f59bb0e.setIcon(icon_ea5c617cf70af2f900a30d7071e795d0);
+            
+    
+            var marker_7886b5450a9ea55d5f9545e5dcb26fa8 = L.marker(
+                [35.11166396, 129.0228448],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ddb4dca918e3ce62eef044152d44310b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7886b5450a9ea55d5f9545e5dcb26fa8.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 부산터널입구</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7886b5450a9ea55d5f9545e5dcb26fa8.setIcon(icon_ddb4dca918e3ce62eef044152d44310b);
+            
+    
+            var marker_6348680ce8a6406d9140b7f7e058bbb0 = L.marker(
+                [35.10991056, 129.022278],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_fb82c510edb5b8ff0a66661a2fec89f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6348680ce8a6406d9140b7f7e058bbb0.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 화랑초등학교</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6348680ce8a6406d9140b7f7e058bbb0.setIcon(icon_fb82c510edb5b8ff0a66661a2fec89f1);
+            
+    
+            var marker_9683ac6786b7b4caa507a0323c5531fb = L.marker(
+                [35.11041004, 129.0184501],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_fab927cf59b7c6f0cce8c7d9570f03bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9683ac6786b7b4caa507a0323c5531fb.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대시장.동대신역</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9683ac6786b7b4caa507a0323c5531fb.setIcon(icon_fab927cf59b7c6f0cce8c7d9570f03bc);
+            
+    
+            var marker_224816e77a21b770ff2d91fc19c05861 = L.marker(
+                [35.11076351, 129.0193595],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_18e9e2c12b77314400e15064c7db1e6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_224816e77a21b770ff2d91fc19c05861.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신시장</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_224816e77a21b770ff2d91fc19c05861.setIcon(icon_18e9e2c12b77314400e15064c7db1e6b);
+            
+    
+            var marker_cc134124486d0c05ff46c501fe013bea = L.marker(
+                [35.11135343, 129.0210646],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_978b72960f0eafa7a3580a5191ab4230 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cc134124486d0c05ff46c501fe013bea.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 부산은행</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cc134124486d0c05ff46c501fe013bea.setIcon(icon_978b72960f0eafa7a3580a5191ab4230);
+            
+    
+            var marker_e7d707c25d95fc79bae9f32991d31fcc = L.marker(
+                [35.11255487, 129.0213371],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_0ac264f6b5a259b2c2be7ee09bddf531 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e7d707c25d95fc79bae9f32991d31fcc.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 서여고</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e7d707c25d95fc79bae9f32991d31fcc.setIcon(icon_0ac264f6b5a259b2c2be7ee09bddf531);
+            
+    
+            var marker_de718a521cc9db435771ef070293a5a9 = L.marker(
+                [35.11715714, 129.0192323],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_537d1b8c7ffba0fcaeb220e175d8fb1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_de718a521cc9db435771ef070293a5a9.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 경남고등학교입구</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de718a521cc9db435771ef070293a5a9.setIcon(icon_537d1b8c7ffba0fcaeb220e175d8fb1c);
+            
+    
+            var marker_c906b5ddcab9ae562d872c8b9466420b = L.marker(
+                [35.1172523, 129.0182343],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_92d20e8261539f4ef3d784b6383f5fbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c906b5ddcab9ae562d872c8b9466420b.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신3동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c906b5ddcab9ae562d872c8b9466420b.setIcon(icon_92d20e8261539f4ef3d784b6383f5fbe);
+            
+    
+            var marker_1eb8b7a051ec26ac07a425cd7681feec = L.marker(
+                [35.11748737, 129.0183296],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ee036ee42d658140a76192108305d886 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1eb8b7a051ec26ac07a425cd7681feec.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 동대신3동</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1eb8b7a051ec26ac07a425cd7681feec.setIcon(icon_ee036ee42d658140a76192108305d886);
+            
+    
+            var marker_336599b78a0eb79db07a3bc99a80645b = L.marker(
+                [35.11619284, 129.0230023],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ff922b9317ccbea81e420ac2380d7f69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_336599b78a0eb79db07a3bc99a80645b.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 영산3동아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_336599b78a0eb79db07a3bc99a80645b.setIcon(icon_ff922b9317ccbea81e420ac2380d7f69);
+            
+    
+            var marker_fbe9e3386567b2a03dee73159f39e0bf = L.marker(
+                [35.109912, 129.017528],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_cd831b511bc55ec6bbf6dfb88bd97e62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fbe9e3386567b2a03dee73159f39e0bf.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 석당박물관</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fbe9e3386567b2a03dee73159f39e0bf.setIcon(icon_cd831b511bc55ec6bbf6dfb88bd97e62);
+            
+    
+            var marker_70d018ae3ba72c0c63f525b236223e0b = L.marker(
+                [35.1153451, 129.0163482],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_21ea35b7f88d7cb1db1fe45dccd81edc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_70d018ae3ba72c0c63f525b236223e0b.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 문화아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_70d018ae3ba72c0c63f525b236223e0b.setIcon(icon_21ea35b7f88d7cb1db1fe45dccd81edc);
+            
+    
+            var marker_f3d2c028310985685de3c6faa4401ff9 = L.marker(
+                [35.11809402, 129.0195746],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_4efc0d1a9271c424536591e9eafc8172 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f3d2c028310985685de3c6faa4401ff9.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>🚌 시내버스: 덕산아파트</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3d2c028310985685de3c6faa4401ff9.setIcon(icon_4efc0d1a9271c424536591e9eafc8172);
+            
+    
+            var marker_943a9c46200ebb9e84f753b3fdc290e3 = L.marker(
+                [35.1094916821085, 129.018402142852],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_c4976a4ab178e97ee0b356a112eaaf29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_943a9c46200ebb9e84f753b3fdc290e3.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 (주)가온누리종합복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 구덕로286번길  3 302,303호 (동대신동1가)<br>
+                    📞 전화: 051-242-7355<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_943a9c46200ebb9e84f753b3fdc290e3.setIcon(icon_c4976a4ab178e97ee0b356a112eaaf29);
+            
+    
+            var marker_f1383a473b3a2eb3883f3fa97203b5a9 = L.marker(
+                [35.1150726941653, 129.01590480137],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_a46a8ab27a811d5bfb9e0b2d0e9e9924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f1383a473b3a2eb3883f3fa97203b5a9.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 (주)가온누리종합복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>복지용구</span><br>
+                    📍 주소:  부산광역시 서구 구덕로286번길  3 302,303호 (동대신동1가)<br>
+                    📞 전화: 051-242-7355<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1383a473b3a2eb3883f3fa97203b5a9.setIcon(icon_a46a8ab27a811d5bfb9e0b2d0e9e9924);
+            
+    
+            var marker_613d16bd02db0dcaab990e824fc54575 = L.marker(
+                [35.1150726941653, 129.01590480137],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_fc74e045090e49db8061312f68f7f49a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_613d16bd02db0dcaab990e824fc54575.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 가정요양재가복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문목욕, 방문요양</span><br>
+                    📍 주소:  부산광역시 서구 구덕로  350 2층10호 (동대신동3가, 문화아파트)<br>
+                    📞 전화: 051-417-1021<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_613d16bd02db0dcaab990e824fc54575.setIcon(icon_fc74e045090e49db8061312f68f7f49a);
+            
+    
+            var marker_527607ca6ace649a54528b930c21ed10 = L.marker(
+                [35.1094916821085, 129.018402142852],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_defc30aec9a65dba8f7424a07962a17e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_527607ca6ace649a54528b930c21ed10.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 가족사랑재가복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문목욕, 방문요양</span><br>
+                    📍 주소:  부산광역시 서구 구덕로  284-1 3층 (동대신동1가)<br>
+                    📞 전화: 051-242-6222<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_527607ca6ace649a54528b930c21ed10.setIcon(icon_defc30aec9a65dba8f7424a07962a17e);
+            
+    
+            var marker_cef40024dd9b4c42342e06ad66b3adff = L.marker(
+                [35.1127005730432, 129.018641200354],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_2a058cd9ae49536281ffa99f08e4c703 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cef40024dd9b4c42342e06ad66b3adff.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 건강한노인재가복지</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 대영로73번길  39 105호 (동대신동2가, 삼익아파트)<br>
+                    📞 전화: 051-257-1166<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cef40024dd9b4c42342e06ad66b3adff.setIcon(icon_2a058cd9ae49536281ffa99f08e4c703);
+            
+    
+            var marker_5b1b0eacc942f033aac6c8ebad11d08c = L.marker(
+                [35.1147802401881, 129.015028432804],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_b6854a57600e7b8593c9f0dc70a547a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5b1b0eacc942f033aac6c8ebad11d08c.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 대신노인재가복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 망양로  54 2층 (서대신동3가)<br>
+                    📞 전화: 051-248-1101<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b1b0eacc942f033aac6c8ebad11d08c.setIcon(icon_b6854a57600e7b8593c9f0dc70a547a2);
+            
+    
+            var marker_798800f56a221a984cfaea9a7e6e33b1 = L.marker(
+                [35.1138896987853, 129.014215323381],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_61b83d5f53b8464a16cd54f5cef2432a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_798800f56a221a984cfaea9a7e6e33b1.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 부산서구지역자활센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 대영로45번길  102 3층 (서대신동3가)<br>
+                    📞 전화: 051-253-1957<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_798800f56a221a984cfaea9a7e6e33b1.setIcon(icon_61b83d5f53b8464a16cd54f5cef2432a);
+            
+    
+            var marker_c3e851d141da04e364022a06a8109f3c = L.marker(
+                [35.1103728686337, 129.022816608344],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_8a9bb19aee145f8dd5e32d118855eead = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c3e851d141da04e364022a06a8109f3c.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 서연재가노인복지시설</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문목욕, 방문요양</span><br>
+                    📍 주소:  부산광역시 서구 보수대로154번길  29 상가 301동111호 (동대신동1가, 동대신역 비스타 동원 아파트)<br>
+                    📞 전화: 051-207-7611<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c3e851d141da04e364022a06a8109f3c.setIcon(icon_8a9bb19aee145f8dd5e32d118855eead);
+            
+    
+            var marker_f6995182c0f2d59ea4d3139459a1ef26 = L.marker(
+                [35.1154261584694, 129.016953991395],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_32a7003d735bed268ea7475ad22d8b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f6995182c0f2d59ea4d3139459a1ef26.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 인창서구재가노인복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양, 주야간보호</span><br>
+                    📍 주소:  부산광역시 서구 망양로  72-1 (동대신동3가, 보현빌딩)<br>
+                    📞 전화: 051-242-0906<br>
+                    👥 정원: 100명 / 현원: 96명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f6995182c0f2d59ea4d3139459a1ef26.setIcon(icon_32a7003d735bed268ea7475ad22d8b78);
+            
+    
+            var marker_efc089e5fb9ad96fd1563f3d73126525 = L.marker(
+                [35.1110502908388, 129.021077017092],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_78542d76ac5a114ee9da4cbde60523b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_efc089e5fb9ad96fd1563f3d73126525.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 진사랑방문요양센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 대영로  92 2층 (동대신동1가)<br>
+                    📞 전화: 051-710-9843<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efc089e5fb9ad96fd1563f3d73126525.setIcon(icon_78542d76ac5a114ee9da4cbde60523b9);
+            
+    
+            var marker_cb3ea48b99ea34cb7af9548b5733ab7b = L.marker(
+                [35.1105036314378, 129.017367385726],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_d6ee78d9a683896c82ce57b1af2d7364 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb3ea48b99ea34cb7af9548b5733ab7b.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 초록숲재가복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문요양</span><br>
+                    📍 주소:  부산광역시 서구 구덕로  297 4층 (서대신동2가)<br>
+                    📞 전화: 051-242-7141<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb3ea48b99ea34cb7af9548b5733ab7b.setIcon(icon_d6ee78d9a683896c82ce57b1af2d7364);
+            
+    
+            var marker_95e85690470b285df758ba6c4edf9653 = L.marker(
+                [35.1129185668185, 129.022640352739],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_ccee7ea7d541bf26feaf7a99425b23e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_95e85690470b285df758ba6c4edf9653.bindTooltip(
+                `<div>
+                     
+                <div style='width:320px; font-size:14px; line-height:1.6; word-break:keep-all; white-space:normal;'>
+                    <b style='font-size:15px;'>🏥 함께재가노인복지센터</b><br>
+                    🏷️ 제공서비스: <span style='color:blue;'>방문목욕, 방문요양</span><br>
+                    📍 주소:  부산광역시 서구 대영로111번길  24 1층 (동대신동2가)<br>
+                    📞 전화: 070-4038-8278<br>
+                    👥 정원: -명 / 현원: -명
+                </div>
+                
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_95e85690470b285df758ba6c4edf9653.setIcon(icon_ccee7ea7d541bf26feaf7a99425b23e5);
+            
+    
+            var marker_148c9bc885a1b565ae33c7f9bc8b1229 = L.marker(
+                [35.11240034835498, 129.0167657801893],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_47293900957b56eb9b4a5ef529bd9afe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_148c9bc885a1b565ae33c7f9bc8b1229.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 손영경치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_148c9bc885a1b565ae33c7f9bc8b1229.setIcon(icon_47293900957b56eb9b4a5ef529bd9afe);
+            
+    
+            var marker_6fec2a6a92d2ac98ed7e4e687a368495 = L.marker(
+                [35.1133668268971, 129.016253309541],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_921f900c4e52b1b2dafdd7a78eafcd8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6fec2a6a92d2ac98ed7e4e687a368495.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 지종현소아과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6fec2a6a92d2ac98ed7e4e687a368495.setIcon(icon_921f900c4e52b1b2dafdd7a78eafcd8e);
+            
+    
+            var marker_50acdb9ed37d062d512dd498aeed20c8 = L.marker(
+                [35.11160996457966, 129.01741857053446],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_a221323ad5e00756ebf9a4507f7c9d20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_50acdb9ed37d062d512dd498aeed20c8.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 제일부부치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_50acdb9ed37d062d512dd498aeed20c8.setIcon(icon_a221323ad5e00756ebf9a4507f7c9d20);
+            
+    
+            var marker_92a7b31bae33f9908f29fd017d643222 = L.marker(
+                [35.1117051252312, 129.017169774129],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_53e282485140db9f5a90d30682e9382f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_92a7b31bae33f9908f29fd017d643222.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 새부산산부인과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92a7b31bae33f9908f29fd017d643222.setIcon(icon_53e282485140db9f5a90d30682e9382f);
+            
+    
+            var marker_ecb06fe99947e2b352c0d8320b5a9aa3 = L.marker(
+                [35.11169337824812, 129.0171716779134],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_8474485b413922cdb3c0d8e4e355e92f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ecb06fe99947e2b352c0d8320b5a9aa3.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 서영준신경외과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ecb06fe99947e2b352c0d8320b5a9aa3.setIcon(icon_8474485b413922cdb3c0d8e4e355e92f);
+            
+    
+            var marker_d8f2e5e900c9edf20d5e8e7124a34b94 = L.marker(
+                [35.1117233537059, 129.017103325226],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_b434c3b228d238d5fbef6e903ba213ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d8f2e5e900c9edf20d5e8e7124a34b94.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 김도현 이비인후과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8f2e5e900c9edf20d5e8e7124a34b94.setIcon(icon_b434c3b228d238d5fbef6e903ba213ec);
+            
+    
+            var marker_034c73b68e23d9f2fcb8884fc8154964 = L.marker(
+                [35.1138540370096, 129.01600210296],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_78b6d35a92a18ee44cccc2a61e4231ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_034c73b68e23d9f2fcb8884fc8154964.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 신치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_034c73b68e23d9f2fcb8884fc8154964.setIcon(icon_78b6d35a92a18ee44cccc2a61e4231ea);
+            
+    
+            var marker_91853a63df06aacec44cb25baddbc0c3 = L.marker(
+                [35.1122351311764, 129.016459018482],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_11da773003143c7d3acc20a19d6ac739 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_91853a63df06aacec44cb25baddbc0c3.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 스타치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91853a63df06aacec44cb25baddbc0c3.setIcon(icon_11da773003143c7d3acc20a19d6ac739);
+            
+    
+            var marker_390658aded0cb97ba3657ca3ecc88198 = L.marker(
+                [35.11222875255813, 129.0164632480819],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_657becc20656e8f863972e7a74834467 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_390658aded0cb97ba3657ca3ecc88198.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 은행나무내과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_390658aded0cb97ba3657ca3ecc88198.setIcon(icon_657becc20656e8f863972e7a74834467);
+            
+    
+            var marker_a0650289a963f96992592dce64b54aaf = L.marker(
+                [35.1126507330891, 129.016178634032],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_24ab1d74895027e73ecf568e2bf28820 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a0650289a963f96992592dce64b54aaf.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 대신스마일치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a0650289a963f96992592dce64b54aaf.setIcon(icon_24ab1d74895027e73ecf568e2bf28820);
+            
+    
+            var marker_b594604027a934b327d3ff8c325e40c3 = L.marker(
+                [35.110789160096, 129.020383497086],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_fd02c08febc815d31007f2051ccd8760 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b594604027a934b327d3ff8c325e40c3.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 연세치과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b594604027a934b327d3ff8c325e40c3.setIcon(icon_fd02c08febc815d31007f2051ccd8760);
+            
+    
+            var marker_fe68c2d3d69dcec370e24714a8a06184 = L.marker(
+                [35.1107526682208, 129.020193967149],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_f424ed1c5013ae25bf61b4f0d26a2fdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fe68c2d3d69dcec370e24714a8a06184.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 이경인 내과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fe68c2d3d69dcec370e24714a8a06184.setIcon(icon_f424ed1c5013ae25bf61b4f0d26a2fdc);
+            
+    
+            var marker_f9a5ea55e9709142311223a80139283f = L.marker(
+                [35.1116306647658, 129.0168246738],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_0273941037f6f02a141f7f318f64e984 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f9a5ea55e9709142311223a80139283f.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>병원: 추교용 이비인후과의원</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f9a5ea55e9709142311223a80139283f.setIcon(icon_0273941037f6f02a141f7f318f64e984);
+            
+    
+            var marker_5a48b9e6b7d6ab919a01cd3f6b51a78c = L.marker(
+                [35.1124481339122, 129.019902431361],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_a92afac1eca663cb5a03fb228a7cef12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5a48b9e6b7d6ab919a01cd3f6b51a78c.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 건강약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a48b9e6b7d6ab919a01cd3f6b51a78c.setIcon(icon_a92afac1eca663cb5a03fb228a7cef12);
+            
+    
+            var marker_63979e2166d033da911709132944ca30 = L.marker(
+                [35.1124068182094, 129.016756069341],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_0081be4b35f8f6676f0646a49e164510 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_63979e2166d033da911709132944ca30.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 준약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_63979e2166d033da911709132944ca30.setIcon(icon_0081be4b35f8f6676f0646a49e164510);
+            
+    
+            var marker_663fd51a19938b297593ca539c179ce8 = L.marker(
+                [35.11074774385512, 129.02021906919933],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_33b6a8e1166bfbc56f5e695b309881dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_663fd51a19938b297593ca539c179ce8.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 메디팜큰사랑약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_663fd51a19938b297593ca539c179ce8.setIcon(icon_33b6a8e1166bfbc56f5e695b309881dc);
+            
+    
+            var marker_f97e02df131e9ca99a18d59bfa9752d5 = L.marker(
+                [35.1116414744474, 129.016824940248],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_5757485dfd456e2252d92205a0d65c6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f97e02df131e9ca99a18d59bfa9752d5.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 최약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f97e02df131e9ca99a18d59bfa9752d5.setIcon(icon_5757485dfd456e2252d92205a0d65c6f);
+            
+    
+            var marker_524121f1f65ea6dab7b92e524e872034 = L.marker(
+                [35.110647203180015, 129.020033441626],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_372c8a134048479785512cb3fd13619f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_524121f1f65ea6dab7b92e524e872034.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 버드나무약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_524121f1f65ea6dab7b92e524e872034.setIcon(icon_372c8a134048479785512cb3fd13619f);
+            
+    
+            var marker_67c63ea0b6000bfb97ce218badc54feb = L.marker(
+                [35.1103825958791, 129.018390670305],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_cdedd9881079510667977b01b3199da0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_67c63ea0b6000bfb97ce218badc54feb.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 영광약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67c63ea0b6000bfb97ce218badc54feb.setIcon(icon_cdedd9881079510667977b01b3199da0);
+            
+    
+            var marker_5142020400dd1184ae73902f68bd4310 = L.marker(
+                [35.1097359583027, 129.017392106775],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_626dcfa123e6dbbdfce870a9665aa05c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5142020400dd1184ae73902f68bd4310.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>약국: 신대신약국</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5142020400dd1184ae73902f68bd4310.setIcon(icon_626dcfa123e6dbbdfce870a9665aa05c);
+            
+    
+            var marker_e8350e500f2e94e85da0759296b22ca7 = L.marker(
+                [35.11032054771603, 129.0177333285286],
+                {
+}
+            ).addTo(map_7acf3debbfbbf6146007b6c0d0d1e87e);
+        
+    
+            var icon_bedcf852b6e4ad7eac41ea5690cbc284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e8350e500f2e94e85da0759296b22ca7.bindTooltip(
+                `<div>
+                     <div style='font-size:14px;'>지하철역: 동대신역 부산1호선</div>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8350e500f2e94e85da0759296b22ca7.setIcon(icon_bedcf852b6e4ad7eac41ea5690cbc284);
+            
+</script>
+</html>
